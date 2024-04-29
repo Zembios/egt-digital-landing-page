@@ -9,7 +9,11 @@ function HomePageCarousel() {
 
   useEffect(() => {
     if (splideRef.current) {
-      splideRef.current.splide.Components.Pagination.items.map(sliderDot => {
+      splideRef.current.splide.Components.Pagination.items.map((sliderDot, i) => {
+        if (i === 0) {
+          sliderDot.button.classList.add(styles.dotActive);
+        }
+
         sliderDot.button.classList.add(styles.customDot);
         sliderDot.li.classList.add(styles.customDotLi);
       })
@@ -27,7 +31,7 @@ function HomePageCarousel() {
       options={{
         type: 'loop',
         arrows: false,
-        // autoplay: true
+        autoplay: true
       }}
       ref={splideRef}
     >
