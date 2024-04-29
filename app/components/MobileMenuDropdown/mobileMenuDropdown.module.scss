@@ -1,0 +1,39 @@
+.menuDropdown {
+    @apply p-1 py-4;
+    border-bottom: 1px solid #c9cbd1;
+}
+
+.titleContainer {
+    @apply flex justify-between items-center cursor-pointer
+}
+
+.dropdownTitle {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.titleActive {
+    color: #c2212e;
+}
+
+.dropdownTriggerIcon {
+    height: 20px;
+}
+
+.dropdownTriggerIconActive {
+    color: #c2212e;
+    transform: rotate(180deg);
+}
+
+
+.dropdownLinks {
+
+}
+
+.link {
+    @apply pl-4 pt-4 cursor-pointer;
+}
+
+.hidden {
+    display: none;
+}

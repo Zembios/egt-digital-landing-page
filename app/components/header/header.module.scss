@@ -1,0 +1,102 @@
+.header {
+    @apply flex justify-center items-center relative;
+    height: 80px;
+    background: #d52228;
+}
+
+.headerInner {
+    @apply flex justify-between items-center w-full h-full;
+    max-width: 1440px;
+}
+
+.linkCollection {
+    background: #e0e0e0;
+}
+
+.appLogo {
+    @apply mx-4 cursor-pointer;
+    height: 50px;
+    width: auto;
+    filter: invert(1);
+
+    @media screen and (min-width: 1024px) {
+        @apply mr-20;
+    }
+}
+
+.burgerMenuIcon {
+    @apply cursor-pointer mx-4;
+    height: 50px;
+    color: #fff;
+}
+
+.burgerMenuContainer {
+    @apply flex justify-center items-center;
+    height: 80px;
+    width: 80px;
+    background: #e0e0e0;
+}
+
+.burgerMenuClose {
+    @apply cursor-pointer;
+    height: 50px;
+    color: #c2212e;
+}
+
+.linkCollection {
+    @apply absolute h-fit p-4;
+    top: 80px;
+    right: 0;
+    width: 320px;
+    background: #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+
+.langSwitcher {
+    @apply flex items-center mt-4 cursor-pointer;
+
+    @media screen and (min-width: 1024px) {
+        @apply mt-0 mx-4;
+    }
+}
+
+.langSwitcherIcon {
+    @apply mr-2;
+    height: 20px;
+}
+
+.langSwitcherDropdownTrigger {
+    @apply ml-2;
+}
+
+.mobileMenu {
+    @media screen and (min-width: 1024px) {
+        @apply hidden;
+    }
+}
+
+.desktopMenuLeft {
+    @apply hidden h-full;
+
+    @media screen and (min-width: 1024px) {
+        @apply flex;
+    }
+}
+
+.desktopMenuRight {
+    @apply hidden h-full;
+    color: #fff;
+
+    @media screen and (min-width: 1024px) {
+        @apply flex items-center;
+    }
+}
+
+.linkSeparator {
+    height: 30px;
+    width: 1px;
+    background: #c9cbd1;
+}

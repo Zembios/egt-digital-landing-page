@@ -1,0 +1,34 @@
+.menuDropdown {
+    @apply px-4 relative cursor-pointer h-full flex items-center;
+    color: #fff;
+
+    &:hover {
+        color: #c2212e;
+        background-color: #e0e0e0;
+
+        .dropdownLinks {
+            @apply flex flex-col;
+        }
+    }
+}
+
+.dropdownLinks {
+    @apply hidden absolute p-4;
+    background-color: #e0e0e0;
+    top: 80px;
+    left: 0;
+    width: 200px;
+}
+
+.link {
+    @apply py-2 cursor-pointer;
+    color: #192333;
+
+    &:not(:last-of-type) {
+        border-bottom: 1px solid #c9cbd1;
+    }
+
+    &:hover {
+        color: #c2212e;
+    }
+}
