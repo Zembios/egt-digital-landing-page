@@ -9,10 +9,6 @@
     max-width: 1440px;
 }
 
-.linkCollection {
-    background: #e0e0e0;
-}
-
 .appLogo {
     @apply mx-4 cursor-pointer;
     height: 50px;
@@ -44,7 +40,7 @@
 }
 
 .linkCollection {
-    @apply absolute h-fit p-4;
+    @apply absolute h-fit p-4 z-50;
     top: 80px;
     right: 0;
     width: 320px;

@@ -37,11 +37,11 @@ function Header() {
       </div>
 
       <div className={styles.desktopMenuRight}>
-        <div className={'mx-4 cursor-pointer text-white'}>News & Events</div>
+        <div className={'mx-4 cursor-pointer text-white z-50'}>News & Events</div>
         <div className={styles.linkSeparator}/>
-        <div className={'mx-4 cursor-pointer text-white'}>About Us</div>
+        <div className={'mx-4 cursor-pointer text-white z-50'}>About Us</div>
         <div className={styles.linkSeparator}/>
-        <div className={'mx-4 cursor-pointer text-white'}>Contact Us</div>
+        <div className={'mx-4 cursor-pointer text-white z-50'}>Contact Us</div>
         <div className={styles.linkSeparator}/>
         <div className={styles.langSwitcher}>
           <FontAwesomeIcon
