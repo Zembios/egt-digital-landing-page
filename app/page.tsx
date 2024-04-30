@@ -8,6 +8,7 @@ import {
   faBullhorn, faCalendar, faNewspaper
 } from "@fortawesome/free-solid-svg-icons";
 import SocialNetworksWidget from "@/app/components/SocialNetworksWidget";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
       ]}/>
       <ProductLines/>
       <GlobalServerBasedSolution/>
-      <footer></footer>
+      <Footer/>
 
       <SocialNetworksWidget/>
     </main>

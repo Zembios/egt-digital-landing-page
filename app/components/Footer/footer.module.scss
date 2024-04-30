@@ -1,0 +1,108 @@
+.footer {
+    @apply w-full flex flex-col justify-center items-center;
+    background-color: #e0e0e0;
+}
+
+.desktopFooter {
+    @apply hidden;
+
+    @media screen and (min-width: 1200px) {
+        @apply flex flex-row w-full py-6;
+        max-width: 1200px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        @apply pl-0;
+    }
+}
+
+.productLines {
+    @apply flex flex-row justify-between p-6;
+    width: 65%;
+
+    @media screen and (min-width: 1440px) {
+        @apply pl-0 pr-20;
+    }
+}
+
+.productLine {
+    @apply flex flex-col;
+}
+
+.productLineTitle {
+    @apply mb-4;
+    font-size: 12px;
+    font-weight: bold;
+    color: #424a59;
+}
+
+.productLineLink {
+    @apply my-2;
+    font-size: 13px;
+    color: #5b657a;
+}
+
+.companyAndSocialNetworks {
+    @apply flex flex-row p-6;
+    border-left: 1px solid #c9cbd1;
+}
+
+.mobileFooter {
+    @apply p-6 w-full flex flex-col justify-center items-center;
+
+    @media screen and (min-width: 1200px) {
+        @apply hidden;
+    }
+}
+
+.link {
+    @apply cursor-pointer;
+    font-size: 15px;
+    line-height: 36px;
+    color: #5b657a;
+}
+
+.socialMedias {
+    @apply flex flex-row py-4;
+}
+
+.socialMediasDesktop {
+    @apply flex flex-row;
+}
+
+.facebookDesktop, .youtubeDesktop {
+    @apply flex justify-center items-center;
+    width: 40px;
+    height: 40px;
+}
+
+.facebook, .youtube {
+    @apply flex justify-center items-center mx-1;
+    width: 40px;
+    height: 40px;
+}
+
+.socialMediaIconFb {
+    @apply cursor-pointer;
+    color: #1877F2;
+}
+
+.socialMediaIconYt {
+    @apply cursor-pointer;
+    color: #fff;
+}
+
+.ytIconWrapper {
+    @apply flex justify-center items-center;
+    width: 32px;
+    height: 32px;
+    border-radius: 90px;
+    background: #FF0000;
+}
+
+.copyright {
+    @apply w-full flex justify-center items-center text-center;
+    color: #fff;
+    height: 60px;
+    background: #da2228;
+}
