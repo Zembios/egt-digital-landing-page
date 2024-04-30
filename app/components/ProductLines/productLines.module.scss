@@ -1,0 +1,42 @@
+.productLines {
+    @apply flex flex-col items-center pb-6;
+    background-color: #f7f7f7;
+}
+
+.productLinesTitle {
+    @apply mt-6 mb-2;
+    font-size: 45px;
+}
+
+.productLinesWrapper {
+    @apply flex flex-col items-center;
+
+    @media screen and (min-width: 768px) {
+        @apply flex-row justify-center flex-wrap;
+    }
+}
+
+.productLine {
+    @apply flex relative overflow-hidden m-4;
+    width: 300px;
+    height: 500px;
+}
+
+.productLineName {
+    @apply absolute z-10;
+    bottom: 55px;
+    left: 35px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.productLineCircle {
+    @apply absolute;
+    bottom: -190px;
+    left: -190px;
+    width: 380px;
+    height: 380px;
+    border-radius: 300px;
+    background-color: #0e121a;
+    opacity: 0.8;
+}
