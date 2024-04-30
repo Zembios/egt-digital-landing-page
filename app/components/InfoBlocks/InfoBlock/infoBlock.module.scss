@@ -21,6 +21,7 @@
     @apply flex pb-4;
 
     > span {
+        @apply cursor-default;
         font-size: 30px;
     }
 }

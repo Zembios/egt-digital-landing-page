@@ -4,7 +4,7 @@
 }
 
 .productLinesTitle {
-    @apply mt-6 mb-2;
+    @apply mt-6 mb-2 cursor-default;
     font-size: 45px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .productLineName {
-    @apply absolute z-10;
+    @apply absolute z-10 cursor-default;
     bottom: 55px;
     left: 35px;
     color: #fff;

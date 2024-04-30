@@ -1,0 +1,36 @@
+.socialNetworksWidget {
+    @apply fixed p-2;
+    right: 0;
+    top: 20vh;
+    background-color: #e0e0e0;
+}
+
+.facebook, .youtube {
+    @apply flex justify-center items-center;
+    width: 40px;
+    height: 40px;
+}
+
+.separatorLine {
+    @apply my-2;
+    width: 100%;
+    border-bottom: 1px solid #9aa7b3;
+}
+
+.socialMediaIconFb {
+    @apply cursor-pointer;
+    color: #1877F2;
+}
+
+.socialMediaIconYt {
+    @apply cursor-pointer;
+    color: #fff;
+}
+
+.ytIconWrapper {
+    @apply flex justify-center items-center;
+    width: 32px;
+    height: 32px;
+    border-radius: 90px;
+    background: #FF0000;
+}

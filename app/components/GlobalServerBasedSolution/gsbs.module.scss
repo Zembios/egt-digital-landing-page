@@ -4,9 +4,10 @@
 }
 
 .gsbsTitle {
-    @apply mt-6 mb-2 text-center;
-    font-size: 30px;
+    @apply mt-6 mb-2 text-center cursor-default;
+    font-size: 45px;
     max-width: 70vw;
+    line-height: calc(45px * 1.2);
 }
 
 .gsbsShowcase {
@@ -40,7 +41,7 @@
 }
 
 .gsbsShowcaseTitle {
-    @apply absolute z-10;
+    @apply absolute z-10 cursor-default;
     bottom: 55px;
     left: 25px;
     color: #fff;
@@ -48,7 +49,7 @@
 }
 
 .gsbsShowcaseSubtitle {
-    @apply absolute z-10;
+    @apply absolute z-10 cursor-default;
     bottom: 45px;
     left: 25px;
     color: #fff;

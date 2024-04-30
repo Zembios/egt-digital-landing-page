@@ -7,6 +7,7 @@ import { InfoBlockType } from "@/utils/models";
 import {
   faBullhorn, faCalendar, faNewspaper
 } from "@fortawesome/free-solid-svg-icons";
+import SocialNetworksWidget from "@/app/components/SocialNetworksWidget";
 
 export default function Home() {
   return (
@@ -45,6 +46,8 @@ export default function Home() {
       <ProductLines/>
       <GlobalServerBasedSolution/>
       <footer></footer>
+
+      <SocialNetworksWidget/>
     </main>
   );
 }
