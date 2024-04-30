@@ -1,0 +1,67 @@
+.globalServerBasedSolution {
+    @apply flex flex-col items-center pb-6;
+    background: #fff;
+}
+
+.gsbsTitle {
+    @apply mt-6 mb-2 text-center;
+    font-size: 30px;
+    max-width: 70vw;
+}
+
+.gsbsShowcase {
+    @apply flex relative overflow-hidden m-4;
+    width: 300px;
+    min-width: 300px;
+    max-width: 1200px;
+    height: 500px;
+
+    @media screen and (min-width: 480px) {
+        width: unset;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 600px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 800px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 1200px;
+    }
+}
+
+.gsbsImg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.gsbsShowcaseTitle {
+    @apply absolute z-10;
+    bottom: 55px;
+    left: 25px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.gsbsShowcaseSubtitle {
+    @apply absolute z-10;
+    bottom: 45px;
+    left: 25px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.gsbsShowcaseCircle {
+    @apply absolute;
+    bottom: -345px;
+    left: -360px;
+    width: 590px;
+    height: 590px;
+    border-radius: 300px;
+    background-color: #1389c9;
+    opacity: 0.8;
+}

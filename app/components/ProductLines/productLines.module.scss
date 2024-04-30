@@ -14,12 +14,21 @@
     @media screen and (min-width: 768px) {
         @apply flex-row justify-center flex-wrap;
     }
+
+    @media screen and (min-width: 1440px) {
+        @apply justify-between;
+        width: 1200px;
+    }
 }
 
 .productLine {
     @apply flex relative overflow-hidden m-4;
     width: 300px;
     height: 500px;
+
+    @media screen and (min-width: 1440px) {
+        @apply mx-0;
+    }
 }
 
 .productLineName {
